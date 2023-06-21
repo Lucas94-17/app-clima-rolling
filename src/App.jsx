@@ -5,6 +5,7 @@ import { useState } from 'react'
 import './App.css'
 import { Input } from "./Components/Input/Input"
 import { DataCard } from './Components/Card/DataCard';
+import { Error } from './Components/Error/Error'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,19 +21,9 @@ function App() {
         !error ? (
           <DataCard weatherData={weatherData}></DataCard>
         ) : (
-          <Error></Error>
+          <Error />
         )
       }
-      
-      {/* 
-        ESTO SERIA LO MISMO QUE LO DE ARRIBA, ES UN TERNARIO
-        {
-        if (!error) {
-          <Card weatherData={weatherData}></Card>
-        }else{
-          <Error></Error>
-        }
-      } */}
       </main>
       <footer>
         <p>&copy : Todos los derechos reservados</p>
@@ -42,3 +33,12 @@ function App() {
 }
 
 export default App
+{/* 
+        ESTO SERIA LO MISMO QUE LO DE ARRIBA, ES UN TERNARIO
+        {
+        if (!error) {
+          <Card weatherData={weatherData}></Card>
+        }else{
+          <Error></Error>
+        }
+      } */}

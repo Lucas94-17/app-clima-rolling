@@ -81,12 +81,12 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
-// import { Form, Button, Row, Col } from "react-bootstrap";
+// import Button from 'react-bootstrap/Button';
+// import Col from 'react-bootstrap/Col';
+// import Form from 'react-bootstrap/Form';
+// import InputGroup from 'react-bootstrap/InputGroup';
+// import Row from 'react-bootstrap/Row';
+import { Form, Button, Row, Col } from "react-bootstrap";
 
 const WeatherForm = ({setWeatherData, setError}) => {
   const [city, setCity] = useState("San Miguel de Tucumán");

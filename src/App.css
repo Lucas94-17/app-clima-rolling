@@ -40,11 +40,10 @@
 .read-the-docs {
   color: #888;
 } */
-
 body {
   background-color: #0c4e8b;
   background-image: linear-gradient(19deg, #0c4e8b 0%, #010656 100%);
-
+  padding: 2em;
 }
 
 #root{
@@ -57,7 +56,14 @@ main{
   flex-grow: 1;
 }
 
-label{
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+/* /////////////////////////////////// */
+/* label{
   color:white;
 }
 input{
@@ -69,4 +75,5 @@ button{
   color : white;
   border-radius: 0.5em;
   border-style: none;
-}
+  
+} */

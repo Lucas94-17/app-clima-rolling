@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import './App.css'
+import './App.css'
 import  WeatherForm  from "./Components/Input/Input"
 import  {DataCard}  from './Components/Card/DataCard';
 import Error  from './Components/Error/Error'
@@ -24,7 +24,7 @@ function App() {
       }
       </main>
       <footer>
-        <p>&copy : Todos los derechos reservados</p>
+        <p> © : Todos los derechos reservados</p>
       </footer>
     </>
   )

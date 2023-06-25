@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Badge, Row, Col } from "react-bootstrap";
 
-export const DataCard = ({ weatherData}) => {
+export const DataCard = ({ weatherData }) => {
     return(
     <Card>
         <Card.Body className="text-center">

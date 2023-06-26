@@ -43,7 +43,6 @@
 body {
   background-color: #0c4e8b;
   background-image: linear-gradient(19deg, #0c4e8b 0%, #010656 100%);
-  padding: 2em;
 }
 
 #root{
@@ -54,13 +53,16 @@ body {
 
 main{
   flex-grow: 1;
+  margin: 1em;
 }
 
 footer{
   background-color: black;
   text-align: center;
   color: white;
-  margin: 0;
+  padding: 0.7em;
+  /* margin: 0em; */
+  size:0em
 }
 /* /////////////////////////////////// */
 /* label{
